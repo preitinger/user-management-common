@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 
 export type ApiResp<MySuccessResp> = MySuccessResp | {
     type: 'error';
